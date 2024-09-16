@@ -1,0 +1,59 @@
+header{
+    background-color: #1A1A1A;
+    height: 12vh;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #CDCDCD;
+    padding: 8px 0;
+}
+.header-top .left-cont{
+    align-items: center;
+    display: flex;
+    gap: 24px;
+}
+.header-top .left-cont a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #CDCDCD;
+    text-decoration: none;
+}
+.header-top .right-cont{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.header-top .right-cont i{
+    color: white;
+}
+
+.section1{
+    padding: 80px 0;
+}
+.sec1-top .sec1-heading .services .line{
+    height: 2px;
+    width: 60px;
+    background-color: #E1C564;
+}
+.sec1-top .sec1-heading .services{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sec1-top .sec1-heading .services p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.6px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.sec1-top .sec1-heading h2{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -1px;
+}
